@@ -1,0 +1,27 @@
+
+.wrapper_for_description {
+    min-height: 539px;
+}
+
+.task_details_description {
+    border-radius: 5px;
+    height: 548px;
+    margin: 22px 28px 20px 26px;    
+    background-color: #fff;
+}
+
+.button_in_details {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 95%;
+    margin-top: 10px;
+}
+
+@media (max-width: 1390px) { 
+  }
+  @media (max-width: 1390px) { 
+    .button_in_details {
+        margin-left: 80%;
+    }
+  }

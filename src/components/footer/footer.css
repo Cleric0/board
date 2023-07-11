@@ -1,0 +1,33 @@
+.footer-area {
+    background: #0067A3;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-self: center;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 55px;
+    margin-top: -55px;
+  }
+  
+  .tasks-Board {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-self: center;
+    margin-left: 21px;
+  }
+  
+  .kanban-board-by {
+    margin-right: 19px;
+  } 
+  .by-name {
+    display: inline-block;
+  } 
+  .by-year {
+    display: inline-block;
+  }

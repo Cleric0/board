@@ -1,0 +1,76 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputForNewTask {
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    border: 0; 
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 8px 0px 8px 1px;
+}
+
+.inputForNewTask:focus {
+    outline: none;
+}
+
+.buttonSbmt {
+    background-color: rgba(0, 121, 191, 1);
+    color: white; 
+    cursor: pointer; 
+    border: 0; 
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+    margin: 5px; 
+}
+
+.buttonSbmt:hover {
+    background-color: rgb(2, 95, 149);
+}
+
+@media (max-width: 1399.98px) { 
+    .inputForNewTask{
+        width: 250px; 
+    }
+  }
+  
+  
+  @media (max-width: 1399.98px) { 
+    .select_in_card{
+        width: 250px; 
+    }
+  }
+
+  .button-add {
+	background: none;
+	border: none;
+	appearance: none;
+  color: #5E6C84;
+	margin-top: 2px;
+  padding-left: 16px;
+	cursor: pointer;
+  position: relative;
+}
+.button-add:hover {
+	margin-top: 5px;
+}
+.button-add-cont:hover {
+	width: 120px;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.wrap-sel {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 250px;
+    border: none;
+}

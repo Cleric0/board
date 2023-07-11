@@ -1,0 +1,33 @@
+.card {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.wow {
+    width:250px;
+    height: 40px;
+    border: 1px solid blueviolet;
+}
+
+@media (max-width: 1399.98px) { 
+    .card {
+        width: 270px;
+    }
+}
+
+.button_in_card {
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(94, 108, 132, 1); 
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: start;
+}
+
+.button_in_card:hover {
+    cursor: pointer;
+    background-color: white;
+}

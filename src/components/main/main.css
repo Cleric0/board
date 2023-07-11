@@ -1,0 +1,10 @@
+.main_part {
+    background-color: rgba(0, 121, 191, 1);
+    min-height: 539px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    box-sizing: border-box;
+    padding-bottom: 55px;
+}

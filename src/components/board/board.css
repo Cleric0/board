@@ -1,0 +1,25 @@
+.board-cards {
+    width: 282px;
+    height: 100%;
+    margin-left: 25px;
+    background-color: rgba(235, 236, 240, 1);
+    border-radius: 5px; 
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.wrapper {
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 1399.98px) { 
+        .board-cards {
+            width: 280px;
+            margin-bottom: 50px;
+        }
+}
